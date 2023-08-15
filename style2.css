@@ -1,82 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
 /***INDEX***/
 
 header h1{
-    font-size: 100px;
+    font-size: 50px;
+    
 }
-header nav {
+main nav {
+    position: absolute;
+    top: 7%;
+    right: 1%;
     display: flex;
     justify-content: end;
-    font-size: 50px;
+    font-size: 20px;
+}
+main nav a{
+    color: white;
+    border: solid black;
+    background-color: rgb(90, 109, 251);
+    padding: 5px;
+    margin-left: 20px
 }
 .principal {
     background-color: rgb(105, 172, 5);
 }
-header nav a{
-    color: white;
-    border: solid black;
-background-color: rgb(90, 109, 251);
-}
-header img {
-    width: 100%;
-    height: 300px;
-}
-.divEventos>h2 {
-    font-size: 50px;
-}
-.divEventos .primerh2 {
-    text-align: center;
-    border: solid black;
-    color: black;
-    font-size: 100px;
-}
-.divEventos>p {
-    font-size: 30px;
-}
 
-.divEventos .imgLogo {
+header img {
+padding-top: 30px;
+    width: 100%;
+    height: 500px;
+}
+.primerdiv h2 {
+    width: 100%;
+    margin-top:-4px ;
+    border: solid 5px black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+.primerdiv .divlogo img {
+    position: absolute
     width: 300px;
     height: 300px;
 }
+
+main .divEventos {
+    position: absolute;
+    left: 30%;
+    bottom: 2%;
+}
+
+main .divEventos h2 {
+    font-size: 50px;
+}
+
+main .divEventos p {
+    font-size: 30px;
+}
+
 /***FIN INDEX***/
 
 /***ABOUT***/
 
-.divAbout .h2About {
+main .divAbout {
+    position: absolute;
+    left: 30%;
+    bottom: 5%;
+}
+
+main .divAbout h2 {
     text-align: center;
-    border: solid black;
+    
+    
     color: black;
-    font-size: 100px;
-}
-.divAbout .imgLogo {
-    width: 300px;
-    height: 300px;
-}
-.divAbout h2 {
-    font-size: 50px;
+    font-size: 30px;
 }
 .divAbout p {
-    font-size: 30px;
-
+    font-size: 12px;
+    text-align:justify ;
+    text-indent: 1.5em;
+    padding-right:20px ;
 }
 /***FIN ABOUT***/
 
 /***CONTACT***/
 
-.divContact .h2Contact {
-    text-align: center;
-    border: solid black;
-    color: black;
-    font-size: 100px;
-}
-.divContact .imgLogo {
-    width: 300px;
-    height: 300px;
-}
-.divContact h2 {
-    font-size: 50px;
-}
-.divContact p {
+.divContactos p {
+    font-weight: 5px;
+    position: absolute;
+    left: 30%;
+    bottom: 15%;
     font-size: 30px;
-
 }
 /***FIN CONTACT***/
