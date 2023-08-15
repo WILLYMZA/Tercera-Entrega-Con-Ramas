@@ -71,7 +71,7 @@ display: inline-block;
 }
 .divEventos p {
     font-size: 25px;
-    margin-left: 40px;
+    text-indent: 1.5em;
     
 }
 /***FIN INDEX***/
@@ -88,13 +88,13 @@ display: inline-block;
 
 .divAbout p {
     font-size: 20px;
-
+    text-indent: 1.5em;
+    text-align: justify;
 }
 /***FIN ABOUT***/
 
 /***CONTACT***/
 .divContacto {
-    border: solid black;
     margin-left: 10%;
 }
 .divContacto p {
