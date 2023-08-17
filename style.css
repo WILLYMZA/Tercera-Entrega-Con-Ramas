@@ -1,72 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 /***INDEX***/
+header {
+    position: relative;
+}
 
 header h1{
-    font-size: 100px;
-}
-header nav {
+    color: white;
     font-size: 50px;
+    position: absolute;
+    top: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 header img {
     width: 100%;
-    height: 300px;
+    height: 100%;
 }
-.divEventos>h2 {
-    font-size: 50px;
+
+main {
+    display: flex;
 }
-.divEventos .primerh2 {
+main nav {
+    justify-content: space-between;
+    font-size: 20px;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    height: 200px;
+    
+}
+main a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+display: inline-block;
+}
+
+
+.divlogo {
+    position: absolute;
+    right: 1%;
+    bottom: -27px;
+}
+
+.divlogo img {
+    width: 200px;
+    height: 200px;
+}
+
+.primerdiv {
+    font-size: 20px;
     text-align: center;
     background-color:black;
     color: white;
-    font-size: 100px;
-}
-.divEventos>p {
-    font-size: 30px;
+    font-size: 40px;
+    position: relative;
 }
 
-.divEventos .imgLogo {
-    width: 300px;
-    height: 300px;
+.divEventos{ 
+    display: inline-block;
+    margin-left: 50px;
+
+}
+.divEventos h2{
+    font-size: 40px;
+    
+}
+.divEventos p {
+    font-size: 25px;
+    text-indent: 1.5em;
+    
 }
 /***FIN INDEX***/
 
 /***ABOUT***/
-
-.divAbout .h2About {
-    text-align: center;
-    background-color:black;
-    color: white;
-    font-size: 100px;
-}
-.divAbout .imgLogo {
-    width: 300px;
-    height: 300px;
+.divAbout {
+    margin-left: 50px;
 }
 .divAbout h2 {
-    font-size: 50px;
+    text-align: left;
+    color: black;
+    font-size: 40px;
 }
-.divAbout p {
-    font-size: 30px;
 
+.divAbout p {
+    font-size: 20px;
+    text-indent: 1.5em;
+    text-align: justify;
 }
 /***FIN ABOUT***/
 
 /***CONTACT***/
-
-.divContact .h2Contact {
-    text-align: center;
-    background-color:black;
-    color: white;
-    font-size: 100px;
+.divContacto {
+    margin-left: 10%;
 }
-.divContact .imgLogo {
-    width: 300px;
-    height: 300px;
-}
-.divContact h2 {
+.divContacto p {
     font-size: 50px;
-}
-.divContact p {
-    font-size: 30px;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /***FIN CONTACT***/
