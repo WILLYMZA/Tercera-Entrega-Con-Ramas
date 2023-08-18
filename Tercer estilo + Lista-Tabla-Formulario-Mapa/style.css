@@ -100,13 +100,16 @@ body .mainrules{
     display: flex;
     background-color: rgb(225, 222, 222);
     width: 95%;
-    height: 550px; 
+    height: fit-content; 
 }
 .mainrules .divrules{
+    text-indent: 2.5em;
     margin-bottom: 100px;
+    text-align: justify;
 }   
 
 .divlistas {
+    font-size: 15px;
     margin-left: 40px;
     text-align: justify;
 }
