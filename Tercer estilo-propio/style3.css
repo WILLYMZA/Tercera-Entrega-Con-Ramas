@@ -48,10 +48,10 @@
     
 }
 .contenedor main img {
-    padding-right: 30px;
-    padding-left: 30px;
-    width: 600px;
-    height: 400px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 500px;
+    height: 300px;
 }
 .contenedor main div{
     align-items: center;
@@ -64,7 +64,11 @@
     margin-top: 15px;
     width: 500px;
 }
+main div h2 {
+    font-size: 20px;
+}
 main div p{
+    font-size: 12px;
 padding: 8px;
 
 }
