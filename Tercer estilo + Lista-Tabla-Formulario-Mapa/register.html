@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contenedor">
+    <header>
+        <img class="imgLogo" src="./imagenes-y-pdf/LogoMightyducks-01.png" alt="Jockey">
+        <h1>Mighty Ducks Hockey League</h1>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./about.html">Sobre MDHL</a>
+            <a href="./contact.html">Contacto</a>
+            <a href="./rules.html">Reglas</a>
+            <a href="./gameinfo.html">Game Info</a>
+            <a class="principal" href="#">Registration</a>
+        </nav>
+    </header>
+    <h2 class="primerh2">Registration Form</h2>
+    <main class="mainreg">
+        <fieldset>
+            <label for="player-name">Player´s First Name:</label>
+            <input type="text" name="player-name" id="player-name">
+            <label for="Last-name">Last Name:</label>
+            <input type="text" name="Last-name" id="Last-name"><br>
+            <label for="address">Street Address:</label>
+            <input type="text" name="address" id="address"><br>
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city">
+            <label for="zip">Zip Code:</label>
+            <input type="text" name="zip" id="zip">
+            <div class="divdate">
+                <label for="date">Birth Date (dd/mm/yyyy)</label>
+                <input type="date" id="date" />
+            </div>
+            <label for="gender">Gender:</label>
+            <label for="female">Female</label>
+            <input type="checkbox" name="female" id="female" />
+            <label for="male">Male</label>
+            <input type="checkbox" name="male" id="male" /><br>
+            <label for="grade">Grade:</label>
+            <input type="checkbox" name="pre" id="pre" />
+            <label for="pre">Pre-School</label>
+            <input type="checkbox" name="1" id="1" />
+            <label for="1">1st</label>
+            <input type="checkbox" name="2" id="2" />
+            <label for="2">2nd</label>
+            <input type="checkbox" name="3" id="3" />
+            <label for="3">3nd</label>
+            <input type="checkbox" name="4" id="4" />
+            <label for="4">4th</label>
+            <input type="checkbox" name="5" id="5" />
+            <label for="5">5th</label>
+        </fieldset>
+        <fieldset>
+            <h2>Which elementary school do you live near?</h2>
+            <h2>Chosest School:</h2>
+            <label for="aj">AJ Katzenmaier</label>
+            <input type="checkbox" name="aj" id="aj" />
+            <label for="greenbay">Greenbay</label>
+            <input type="checkbox" name="greenbay" id="greenbay" />
+            <label for="howard">Howard A Yeager</label><br>
+            <input type="checkbox" name="howard" id="howard" />
+            <label for="marjorie">Marjorie P Hart</label>
+            <input type="checkbox" name="marjorie" id="marjorie" />
+            <label for="north">North Elementary</label>
+            <input type="checkbox" name="north" id="north" />
+            <label for="south">South Elementary</label>
+            <input type="checkbox" name="south" id="south" />
+        </fieldset>
+        <fieldset>
+            <h2>What position(s) do you normally play? (check all that apply)</h2>
+            <label for="forward">Forward</label>
+            <input type="checkbox" name="forward" id="forward" />
+            <label for="defense">Defense</label><br>
+            <input type="checkbox" name="defense" id="defense" />
+            <label for="mid">Midfield</label>
+            <input type="checkbox" name="mid" id="mid" />
+            <label for="goal">Goalkeeper</label>
+            <input type="checkbox" name="goal" id="goal" />
+        </fieldset>
+        <fieldset>
+            <h2>Uniform Size</h2>
+            <label for="ysmall">Youth Small</label>
+            <input type="checkbox" name="ysmall" id="ysmall" />
+            <label for="ymedium">Youth Medium</label>
+            <input type="checkbox" name="ymedium" id="ymedium" />
+            <label for="ylarge">Youth Large</label>
+            <input type="checkbox" name="ylarge" id="ylarge" />
+            <label for="small">Small</label>
+            <input type="checkbox" name="small" id="small" />
+            <label for="medium">Medium</label>
+            <input type="checkbox" name="medium" id="medium" />
+            <label for="large">Large</label>
+            <input type="checkbox" name="large" id="large" />
+            <label for="xlarge">Extra-Large</label>
+            <input type="checkbox" name="xlarge" id="xlarge" />
+        </fieldset>
+        <fieldset>
+            <h2>Permission to Play</h2>
+            <p>I, the parent or guardian of the minor registrant, agree that the registrant
+                and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In
+                recognizing the possibility of physical injury associated with hockey and in consideration
+                for the "League" accepting the registrant for its hockey programs and activities,
+                I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated
+                personnel and volunteers, including the facilities used for practices and games, against any claim
+                by or on behalf of the registrant as a result of the registrant's participation in the program and/or
+                being transported to or from MDHL sponsored activities.
+                By entering my name below, I hereby agree and authorize the above. In addition, by entering my
+                name below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p> <br>
+            <label for="signature">Parent/Guardian Signature:</label>
+            <input type="text" name="signature" id="signature">
+            <label for="date1">Date:</label>
+            <input type="text" name="date1" id="date1"> <br>
+            <div class="env">
+                <input type="submit" id="submit" value="Enviar =)">
+            </div>
+        </fieldset>
+    </main>
+</body>
+
+</html>
